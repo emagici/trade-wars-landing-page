@@ -1,12 +1,4 @@
-import {
-  Header,
-  Footer,
-  HeroSection,
-  // HowItWorksSection,
-  // InfoSection,
-  // RiskToEarnSection,
-  // LeaderBoard,
-} from "../../components";
+import { Footer, Header, HeroSection } from "../../components";
 
 function App() {
   return (
