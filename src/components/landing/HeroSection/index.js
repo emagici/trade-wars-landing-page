@@ -10,8 +10,8 @@ export function HeroSection() {
   return (
     <div
       className={`${
-        isLoading && "animate-wiggle"
-      } grow bg-no-repeat bg-cover relative h-[508px] w-full flex justify-center`}
+        isLoading && "animate-wiggle grow bg-no-repeat bg-cover"
+      } relative h-[508px] w-full flex justify-center`}
       onLoad={() => setLoading(true)}
     >
       <div className="flex flex-col mix-blend-multiply w-[673px] h-[354px] items-center bg-[#222C2E] shadow-sm bg-opacity-90 absolute bottom-0 shadow-[#076A80] border border-[#778A8F] py-7 px-[107px]"></div>
