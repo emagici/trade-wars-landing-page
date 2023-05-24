@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #d2d5d9;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Zen Dots", cursive;
+}
+
+h1 {
+  font-size: 32px;
+  text-transform: uppercase;
+}
+
+button {
+  font-family: "Zen Dots", cursive;
+}
+
+h6 {
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+}
