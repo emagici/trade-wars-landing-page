@@ -7,6 +7,7 @@ module.exports = {
       backgroundImage: {
         "hero-background": "url(./assets/hero1.png)",
         "landing-background": "url(./assets/landing_bg.png)",
+        "animation-back": "url(./assets/hero11.webp)",
       },
       textShadow: {
         sm: "0 1px 2px var(--tw-shadow-color)",
@@ -22,9 +23,9 @@ module.exports = {
       },
       keyframes: {
         wiggle: {
-          "0%, 100%": { backgroundImage: "url(./assets/hero11.svg)" },
-          "30%": { backgroundImage: "url(./assets/hero12.svg)" },
-          "60%": { backgroundImage: "url(./assets/hero13.svg)" },
+          "0%, 100%": { backgroundImage: "url(./assets/hero11.webp)" },
+          "30%": { backgroundImage: "url(./assets/hero12.webp)" },
+          "60%": { backgroundImage: "url(./assets/hero13.webp)" },
         },
       },
     },
