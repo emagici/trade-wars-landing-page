@@ -1,9 +1,6 @@
 import React, { useEffect, useState } from "react";
 
 import GMXLogoIcon from "../../../assets/gmx_logo.png";
-import Back1 from "../../../assets/hero11.png";
-import Back2 from "../../../assets/hero12.png";
-import Back3 from "../../../assets/hero13.png";
 import { Socials } from "../../common";
 
 import "./index.css";
