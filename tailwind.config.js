@@ -22,9 +22,9 @@ module.exports = {
       },
       keyframes: {
         wiggle: {
-          "0%, 100%": { backgroundImage: "url(./assets/hero11.webp)" },
-          "30%": { backgroundImage: "url(./assets/hero12.webp)" },
-          "60%": { backgroundImage: "url(./assets/hero13.webp)" },
+          "0%, 100%": { backgroundImage: "url(./assets/hero11.svg)" },
+          "30%": { backgroundImage: "url(./assets/hero12.svg)" },
+          "60%": { backgroundImage: "url(./assets/hero13.svg)" },
         },
       },
     },
